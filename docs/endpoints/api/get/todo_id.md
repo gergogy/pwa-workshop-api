@@ -31,8 +31,8 @@ These are valid responses (codes and content)
 
 #### Examples
 
-URI | Query string | Response
---- | --- | ---
-/api/todo/1 | - | Status code: 200 Content: `{_id: 1,"test":"test"}`
-/api/todo/130 | - | Status code: 404 Content: none
+URI | Query string | Status code | Content
+--- | --- | --- | ---
+/api/todo/1 | - | 200 | `{_id: 1,"test":"test"}`
+/api/todo/130 | - | 404 | none
 

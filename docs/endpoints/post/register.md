@@ -42,8 +42,8 @@ These are valid responses (codes and content)
 
 #### Examples
 
-URI | Payload | Response
---- | --- | ---
-/register | `{"identifier": "john.doe@example.com", "password": "joe123"}` | Status code: 200 Content: `{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOjEzLCJpYXQiOjE1MTIwNzI3OTUsIm5iZiI6MTUxMjA3Mjc5NSwiZXhwIjoxNTEyNjc3NTk1LCJpc3MiOiJUb0RvIExpc3QgQVBJIiwic3ViIjoiQmFzZSBDb21tdW5pY2F0aW9uIn0.hiMtLsUa6NnkgGfjs-hum8DyZtvHkLXZGKFqf4MX0dc"}`
-/register | `{"identifier": "john.doe@example.com", "password": "joe123"}` | Status code: 418 Content: none
+URI | Payload | Status code | Content
+--- | --- | --- | ---
+/register | `{"identifier": "john.doe@example.com", "password": "joe123"}` | 200 | `{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOjEzLCJpYXQiOjE1MTIwNzI3OTUsIm5iZiI6MTUxMjA3Mjc5NSwiZXhwIjoxNTEyNjc3NTk1LCJpc3MiOiJUb0RvIExpc3QgQVBJIiwic3ViIjoiQmFzZSBDb21tdW5pY2F0aW9uIn0.hiMtLsUa6NnkgGfjs-hum8DyZtvHkLXZGKFqf4MX0dc"}`
+/register | `{"identifier": "john.doe@example.com", "password": "joe123"}` | 418 | none
 

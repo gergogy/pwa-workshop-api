@@ -37,7 +37,7 @@ These are valid responses (codes and content)
 
 #### Examples
 
-URI | Payload | Response
---- | --- | ---
-/api/todo | `{"insertData": {"test": "insert"}}` | Status code: 200 Content: `{id: 1}`
+URI | Payload | Status code | Content
+--- | --- | --- | ---
+/api/todo | `{"insertData": {"test": "insert"}}` | 200 | `{id: 1}`
 

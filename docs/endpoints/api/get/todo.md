@@ -34,9 +34,9 @@ These are valid responses (codes and content)
 
 #### Examples
 
-URI | Query string | Response
---- | --- | ---
-/api/todo | - or `page=1` | Status code: 200 Content: `[{_id: "1","test":"test"},{_id: "2","test2":"test2"},... 18 more]`
-/api/todo | `page=2` | Status code: 200 Content: `[{_id: "21","test21":"test21"},{_id: "22","test22":"test22"}]`
-/api/todo | `page=20` | Status code: 404 Content: none
+URI | Query string | Status code | Content
+--- | --- | --- | ---
+/api/todo | - or `page=1` | 200 | `[{_id: "1","test":"test"},{_id: "2","test2":"test2"},... 18 more]`
+/api/todo | `page=2` | 200 | `[{_id: "21","test21":"test21"},{_id: "22","test22":"test22"}]`
+/api/todo | `page=20` | 404 | none
 
