@@ -2,7 +2,9 @@
 
 Simple API for PWA Workshop Demo
 
-*API* endpoints needs valid JWT token
+API endpoints needs valid JWT token
+
+Run `npm install`
 
 ## Prerequisite
 

@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js --exec babel-node",
-    "build": "babel . -d dist --copy-files --ignore 'node_modules,docs'",
+    "build": "babel . -d dist --copy-files --ignore 'node_modules,docs,package.json,package-lock.json,.babelrc,.gitignore,README.md'",
     "prod": "node dist/index.js"
   },
   "keywords": [
