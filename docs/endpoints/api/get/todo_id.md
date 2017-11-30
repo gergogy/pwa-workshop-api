@@ -6,7 +6,7 @@ Returns with one of todos with _:id_
 
 Name | Value | Description
 --- | --- | ---
-`Authorization` | `Bearer <jwt_token>` | jwt_token: See [`/login`](../../../post/login.md)
+`Authorization` | `Bearer <jwt_token>` | jwt_token: See [`/login`](../../post/login.md)
 
 #### Parameters
 
