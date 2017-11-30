@@ -6,7 +6,7 @@ List of todos (limit 20)
 
 Name | Value | Description
 --- | --- | ---
-`Authorization` | `Bearer <jwt_token>` | jwt_token: See [`/login`](https://github.com/gergogy/pwa-workshop-api/blob/master/docs/endpoints/post/login.md)
+`Authorization` | `Bearer <jwt_token>` | jwt_token: See [`/login`](../../../post/login.md)
 
 #### Parameters
 
@@ -37,6 +37,6 @@ These are valid responses (codes and content)
 URI | Query string | Response
 --- | --- | ---
 /api/todo | - or `page=1` | Status code: 200 Content: `[{_id: "1","test":"test"},{_id: "2","test2":"test2"},... 18 more]`
-/api/todo | `page=2` | Status code: 200 Content: `[{_id: "21","test21":"test21"}]`
+/api/todo | `page=2` | Status code: 200 Content: `[{_id: "21","test21":"test21"},{_id: "22","test22":"test22"}]`
 /api/todo | `page=20` | Status code: 404 Content: none
 

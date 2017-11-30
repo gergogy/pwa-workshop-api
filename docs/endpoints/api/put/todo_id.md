@@ -6,7 +6,7 @@ Modify an existing todo
 
 Name | Value | Description
 --- | --- | ---
-`Authorization` | `Bearer <jwt_token>` | jwt_token: See [`/login`](https://github.com/gergogy/pwa-workshop-api/blob/master/docs/endpoints/post/login.md)
+`Authorization` | `Bearer <jwt_token>` | jwt_token: See [`/login`](../../../post/login.md)
 
 #### Parameters
 
