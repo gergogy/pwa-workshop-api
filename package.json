@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "name": "todolist-api",
+  "version": "0.1.0",
+  "description": "PWA Workshop - ToDo List API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --exec babel-node",
+    "build": "babel . -d dist --copy-files --ignore 'node_modules,docs'",
+    "prod": "node dist/index.js"
+  },
+  "keywords": [
+    "REST",
+    "RESTful",
+    "API"
+  ],
+  "author": "Gergő Gyulai <gergo.gyulai@innonic.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "config": "^1.28.1",
+    "express": "^4.16.2",
+    "express-bearer-token": "^2.1.0",
+    "express-unless": "^0.3.1",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "^2.2.33",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0"
+  }
+}
