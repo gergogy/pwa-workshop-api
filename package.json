@@ -26,6 +26,7 @@
     "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
     "config": "^1.28.1",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
     "express-bearer-token": "^2.1.0",
     "express-unless": "^0.3.1",

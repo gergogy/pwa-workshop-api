@@ -5,6 +5,7 @@ All `/api` prefixed routes requires an active and valid JWT token
 ##### **GET**
 - **[<code>GET</code> /api/todo](./endpoints/api/get/todo.md)**
 - **[<code>GET</code> /api/todo/:id](./endpoints/api/get/todo_id.md)**
+- **[<code>GET</code> /api/tokenLogin](./endpoints/api/get/tokenlogin.md)**
 
 ##### **POST**
 - **[<code>POST</code> /login](./endpoints/post/login.md)**

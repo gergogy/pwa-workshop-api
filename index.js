@@ -4,7 +4,7 @@ import router from './router'
 import morgan from 'morgan'
 import { json as jsonBodyParser } from 'body-parser'
 import bearerToken from 'express-bearer-token'
-import cors from './middlewares/cors'
+import cors from 'cors'
 import auth from './middlewares/auth'
 import mdb from './database/mongo'
 
@@ -14,7 +14,7 @@ app.use(morgan(config.log.access.type))
 app.use(bearerToken())
 app.use(jsonBodyParser())
 
-app.all('*', cors)
+app.use(cors())
 app.use('/api', auth)
 
 router(app)
