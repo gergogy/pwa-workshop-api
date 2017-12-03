@@ -33,7 +33,9 @@ export default router => {
       const db = req.app.get('mdb')
       let doc = req.body.insertData
 
-      delete doc._id
+      if (doc._id) {
+        delete doc._id
+      }
 
       mongoAdapter.insert(db.collection(coll(req.userId)), doc)
         .then(insertedId => {
@@ -67,9 +69,11 @@ export default router => {
     })
     .put((req, res) => {
       const db = req.app.get('mdb')
-      let doc = req.body.insertData
+      let doc = req.body.updateData
 
-      delete doc._id
+      if (doc._id) {
+        delete doc._id
+      }
 
       mongoAdapter.update(db.collection(coll(req.userId)), req.params.id, doc)
         .then(result => {
